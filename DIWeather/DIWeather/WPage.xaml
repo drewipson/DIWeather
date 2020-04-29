@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DIWeather.WPage"
+             Title="Weather Forecast">
+    <ContentPage.Content>
+        <StackLayout x:Name="WeatherBackgroundColor" BackgroundColor="White">
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="City: " 
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label
+                    x:Name="LBLCityName"
+                    Text=""
+                    TextColor="Black"  
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                    <Label
+                    Text="Sunrise: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+                    <Label
+                    x:Name="LBLSunrise"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                    <Label
+                    Text="Sunset: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+                    <Label
+                    x:Name="LBLSunset"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label
+                    Text="Current Temperature: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLCurTemp"
+                    TextColor="Black"
+                    Text=""
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="High Temperature: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLHighTemp"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="Low Temperature: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLLowTemp"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="Pressure: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLPressure"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label
+                    Text="Humidity: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLHumidity"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="Wind Direction: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLWindDirection"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <Label 
+                    Text="Wind Speed: "
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="EndAndExpand"/>
+                <Label 
+                    x:Name="LBLWindSpeed"
+                    Text=""
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

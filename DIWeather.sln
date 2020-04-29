@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWeather.Android", "DIWeather\DIWeather.Android\DIWeather.Android.csproj", "{727A08D7-3E78-4754-96E4-324B5CE6738E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWeather", "DIWeather\DIWeather\DIWeather.csproj", "{7005B574-39E4-493A-96A2-DC77ED19411C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727A08D7-3E78-4754-96E4-324B5CE6738E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7005B574-39E4-493A-96A2-DC77ED19411C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {019FED2E-4E5E-478F-84B3-10DF6473E13E}
+	EndGlobalSection
+EndGlobal

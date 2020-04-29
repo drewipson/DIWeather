@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DIWeather.MainPage"
+             Title="Drew's Weather App">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label
+            Text="Use the drop down picker option to quickly check the weather in a city in Utah or enter a 5 digit zipcode of anywhere in the U.S. to check the weather."
+            HorizontalOptions="Center"
+            VerticalOptions="StartAndExpand"
+            HorizontalTextAlignment="Center"
+            Margin="10,0"
+            FontSize="Body"
+            TextColor="Black"/>
+        <Picker 
+            x:Name="pckrCity"
+            Title="Select a Utah City">
+        </Picker>
+        <Label
+            Text="Or Enter a ZipCode To Search Other Cities"
+            FontSize="15"
+            HorizontalOptions="Center"/>
+        <Entry
+            x:Name="iptZipCode"
+            Placeholder="5 Digit U.S. Zipcode"/>
+        <Button x:Name="btnShowTemp"
+                Clicked="btnShowTemp_Clicked"
+                VerticalOptions="EndAndExpand"
+                FontSize="30"
+                Text="Show Temperature"
+                />
+
+    </StackLayout>
+
+</ContentPage>
